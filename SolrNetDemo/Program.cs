@@ -11,7 +11,7 @@ namespace SolrNetDemo
         static void Main(string[] args)
         {
             Dictionary<string,string>paraDict=new Dictionary<string, string>();
-            paraDict.Add("message","数据库");
+            paraDict.Add("message","数据库11");
             DateTime start = DateTime.Now.AddDays(-3);
             DateTime end = DateTime.Now.AddDays(-1);
             int count;
