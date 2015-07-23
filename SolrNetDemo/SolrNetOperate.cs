@@ -26,6 +26,7 @@ namespace SolrNetDemo
         /// <param name="endTime">结束时间</param>
         /// <param name="count">输出参数 总个数</param>
         /// <returns></returns>
+        /// <remarks>peng.li 2015年7月23日14:11:43</remarks>
         public static List<int> GroupingSerach(Dictionary<string, string> dictPars, int start, int rows,
             DateTime startTime, DateTime endTime, out int count)
         {
